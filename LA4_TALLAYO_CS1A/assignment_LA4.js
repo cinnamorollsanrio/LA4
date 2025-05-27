@@ -24,8 +24,16 @@ for (let i = 0; i < 5; i++) {
     }
 }
 
-// Output
-// program lets 5 customers enter names and gives each a number...
-// then asks which number to serve also removes that customer from queue...
-// shows updated queue after each service...
-// ends after all 5 customers are served.
+// Output using the given sample - Elaine, Althea, Angelo, Lito, Engelbert
+// Enter name of customer 1:Elaine
+// Hello Elaine, your number is 1
+// Queue: [Elaine]
+// Enter name of customer 2:Althea
+// Hello Althea, your number is 2
+// Queue: [Elaine, Althea].........
+// Enter the number to be serviced (1 to current queue size):1
+// Now servicing: Elaine
+// Updated Queue: [Althea, Angelo, Lito, Engelbert]
+// Enter the number to be serviced (1 to current queue size):8
+// Invalid number entered.
+// .....
